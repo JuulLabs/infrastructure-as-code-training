@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:22.04
 MAINTAINER Yevgeniy Brikman <jim@gruntwork.io>
 
 RUN apt-get update && apt-get install -o Acquire::ForceIPv4=true -y nodejs npm
